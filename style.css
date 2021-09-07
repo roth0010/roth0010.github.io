@@ -1,0 +1,88 @@
+body {
+    background-color: #dddddf;
+}
+#header {
+    background-color: #af1e24;
+    font-family: sans-serif;
+    margin-top: -10px;
+    margin-bottom: -23px;
+    margin-left: -15px;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.current {
+    font-weight: bolder;
+}
+h2 {
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+}
+h6 {
+    margin-top: 1px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    font-family: sans-serif
+}
+h3 {
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+li {
+    font-family: Helvetica, sans-serif;
+}
+img{
+    margin-left: 15px;
+    margin-right: 0px;
+    border-width: 10px;
+    border-color: #a6a5a3;
+    border-style: solid;
+    border-radius: 3px;
+}
+#thalys {
+    margin-left: 0px;
+}
+#wc {
+    font-size: 9pt;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: -30px;
+    padding: 15;
+    padding-right: 15px;
+    overflow: hidden;
+    background-color: #af1e24;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #a6a5a3;
+}
+.current {
+    background-color: #dddddf;
+}
+.std-list {
+  list-style: square;
+}
+.details {
+    background-color: #dddddf;
+    margin: 15px;
+}
