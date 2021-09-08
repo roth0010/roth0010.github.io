@@ -33,20 +33,21 @@ h6 {
 h3 {
     font-family: sans-serif;
     margin-left: 50px;
+    margin-top: 12px;
+    padding-top: 6px;
+    margin-bottom: 6px;
 }
 li {
     font-family: Helvetica, sans-serif;
 }
 img{
-    margin-left: 15px;
+    margin-left: 0px;
     margin-right: 0px;
-    border-width: 10px;
-    border-color: #a6a5a3;
-    border-style: solid;
+    border-width: 0px;
     border-radius: 3px;
 }
-#thalys {
-    margin-left: 0px;
+#e6 {
+    margin-left: 15px;
 }
 #wc {
     font-size: 9pt;
@@ -93,4 +94,27 @@ li a:hover {
 Nav {
     position: sticky;
     top: 0px 
+}
+footer {
+    background-color: #a6a5a3;
+    position: sticky;
+    width: 100%;
+    padding-bottom: 6px;
+}
+#useful {
+    text-decoration: none;
+    background-color: #a6a5a3;
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 0px;
+    padding: 0px;
+}
+.hz {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    border: 0px;
 }
