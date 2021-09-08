@@ -93,6 +93,12 @@ li a:hover {
 }
 .std-list {
   list-style: square;
+  background-color: #dddddf;
+  margin-left: 25px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 .details {
     background-color: #dddddf;
