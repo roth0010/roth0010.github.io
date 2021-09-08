@@ -86,3 +86,11 @@ li a:hover {
     background-color: #dddddf;
     margin: 15px;
 }
+/* Nav {
+    position: fixed;
+    top: 0px 
+}*/
+Nav {
+    position: sticky;
+    top: 0px 
+}
