@@ -71,9 +71,9 @@ ul {
     list-style-type: none;
     margin: 0;
     margin-left: -30px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
     padding-bottom: 0px;
     overflow: hidden;
     background-color: #af1e24;
@@ -112,7 +112,8 @@ li a:hover {
 }
 Nav {
     position: sticky;
-    top: 0px 
+    top: 0px; 
+    padding-top: 0px;
 }
 footer {
     background-color: #a6a5a3;
