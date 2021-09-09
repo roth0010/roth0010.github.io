@@ -1,5 +1,9 @@
 body {
     background-color: #dddddf;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 #header {
     background-color: #af1e24;
@@ -67,8 +71,10 @@ ul {
     list-style-type: none;
     margin: 0;
     margin-left: -30px;
-    padding: 15;
+    padding-top: 15px;
     padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 0px;
     overflow: hidden;
     background-color: #af1e24;
 }
@@ -91,23 +97,19 @@ li a:hover {
 .current {
     background-color: #dddddf;
 }
-.std-list {
-  list-style: square;
-  background-color: #dddddf;
-  margin-left: 25px;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-}
 .details {
     background-color: #dddddf;
-    margin: 15px;
+    float: none;
+    list-style: square;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
-/* Nav {
-    position: fixed;
-    top: 0px 
-}*/
 Nav {
     position: sticky;
     top: 0px 
@@ -138,7 +140,8 @@ footer {
 #journey {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 15px;
+    margin-right: 75px;
+    margin-left: 15px;
 }
 #faq {
     margin-left: 80px;
@@ -152,5 +155,8 @@ h5 {
 }
 #answerfinal {
     margin-left: 45px;
+    margin-bottom: 50px;
+}
+#final {
     margin-bottom: 50px;
 }
