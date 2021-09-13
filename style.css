@@ -7,7 +7,8 @@ body {
 }
 #header {
     background-color: #af1e24;
-    font-family: sans-serif;
+    color: #dddddf;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-top: -10px;
     margin-bottom: -23px;
     margin-left: -15px;
@@ -19,22 +20,22 @@ body {
     font-weight: bolder;
 }
 h2 {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-left: 50px;
     
 }
 h4 {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-left: 50px;
     
 }
 h1 {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-left: 50px;
     font-size: 32pt;
 }
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-top: 5px;
     margin-bottom: 7px;
     margin-left: 15px;
@@ -43,17 +44,14 @@ h6 {
     margin-top: 1px;
     margin-bottom: 12px;
     margin-left: 15px;
-    font-family: sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
 h3 {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-left: 50px;
     margin-top: 15px;
     padding-top: 10px;
     margin-bottom: 6px;
-}
-li {
-    font-family: Helvetica, sans-serif;
 }
 img{
     margin-left: 0px;
@@ -78,27 +76,33 @@ ul {
     overflow: hidden;
     background-color: #af1e24;
 }
-  
+
 li {
+    color: #dddddf;
     float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
-  
+
 li a {
     display: block;
-    color: #000;
+    color: #dddddf;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
-  
+
 li a:hover {
     background-color: #a6a5a3;
+    color: #000;
 }
 .current {
     background-color: #dddddf;
+    color: #000;
 }
-.details {
+#details {
     background-color: #dddddf;
+    color: #000;
     float: none;
     list-style: square;
     margin-left: 30px;
@@ -114,20 +118,26 @@ Nav {
     position: sticky;
     top: 0px; 
     padding-top: 0px;
+    z-index: 999;
 }
 footer {
     background-color: #a6a5a3;
     position: sticky;
     width: 100%;
     padding-bottom: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
 #useful {
     text-decoration: none;
+    color: #000;
     background-color: #a6a5a3;
     width: 100%;
     margin-top: 3px;
     margin-left: 0px;
     padding: 0px;
+}
+#backinblack {
+    color: #000;
 }
 .hz {
     margin-top: 0px;
@@ -141,14 +151,14 @@ footer {
 #journey {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 75px;
+    margin-right: 425px;
     margin-left: 15px;
 }
 #faq {
     margin-left: 80px;
 }
 h5 {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     margin-left: 20px;
 }
 #answer {
@@ -158,6 +168,78 @@ h5 {
     margin-left: 45px;
     margin-bottom: 50px;
 }
-#final {
+.final {
     margin-bottom: 50px;
+}
+#right
+{
+    float: right;
+}
+.imgsize {
+    margin-right: 30px;
+    width: 350px;
+}
+th, td {
+    border: 1.5px solid black; 
+    border-radius: 6px;
+    margin: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+table {
+    margin: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+.subtext {
+    margin-left: 1px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+}
+.adjust1 {
+    position: relative;
+    top: 0px;
+}
+.adjust2 {
+    position: relative;
+    top: -100px;
+}
+.adjust3 {
+    position: relative;
+    top: 10px;
+    left: 380px;
+}
+.adjust4 {
+    position: relative;
+    top: -195px;
+}
+.adjust5 {
+    position: relative;
+    top: 5px;
+    left: 380px;
+}
+.adjust6 {
+    position: relative;
+    top: -100px;
+}
+.adjust7 {
+    position: relative;
+    top: 70px;
+    left: 380px;
+}
+.move {
+    margin-top: 60px;
+}
+.pass {
+    background-color: #dddddf;
+}
+.fail{
+    background-color: #af1e24;
+}
+.tbd {
+    background-color: #a6a5a3;
+}
+.nbsa {
+    margin: 25px;
+}
+progress[value]{
+    width: 1200px;
 }
