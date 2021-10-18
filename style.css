@@ -87,9 +87,9 @@ body {
     width: 100%;
 }
 
-#background{
+/*#background{
     background-image: url(img/background.png);
-}
+}*/
 
 .current {
     font-weight: bolder;
